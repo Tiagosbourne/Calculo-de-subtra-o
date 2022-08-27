@@ -1,0 +1,20 @@
+Algoritmo "Calculo débito"
+
+Var
+// Seção de Declarações das variáveis 
+   nome: caractere
+   saldo: inteiro
+   cheque, saldofinal:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Escreva seu nome: ")
+   leia (nome)
+   escreva ("Digite seu saldo atual: ")
+   leia (saldo)
+   escreva ("Qual o valor do cheque: ")
+   leia (cheque)
+   saldofinal := saldo - cheque
+   escreva (nome ," seu saldo atual é de: ", saldofinal)
+   
+Fimalgoritmo
